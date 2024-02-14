@@ -1,5 +1,3 @@
-# Getting Started with Create React App
-
 ## Welcome to the PokéTech Challenge!
 
 ## 🌟 Hey, future code master! 🌟
@@ -8,43 +6,28 @@ Prepare to dive into the exciting and somewhat crazy world of PokéTech. Our tea
 
 ## 🚀 The Challenge
 
-## Step 1: Revive Pokémon
+Hello,
+In order to pass this test you have to:
 
-We have an existing project - a Pokémon app - which unfortunately has compilation issues. Your first quest will be to play detective, identify bugs and fix them. Be careful, some can be sneakier than others!
+1-Use "react-router" and "react-router-dom" to create a page home for the list of pokemons an a page detail for the pokemon details
 
-## Step 2: Creative Evolution
+2-Use "react-redux" to handle the global state of the app (using redux toolkit is a +)
 
-Once you've brought our app back to life, it's time to move up a gear. Adds a new feature! Something unique, that lets your skills and creativity shine. Let your imagination run wild, but remember to follow the project's best practices and code conventions.
+3-Use the pokemon api
+https://pokeapi.co/docs/v2
+to dynimize the list of pokemons page and the pokemon details page using api calls
 
-## 📋 Instructions
+4-Make the necessary css changes for the app to best fit for the user experience
 
-Languages Used: JavaScript, with a pinch of HTML and CSS.
-Pokémon API: You are free to use PokeAPI to bring your application to life.
-Best Practices: Clean, well-documented code is like a Max Potion for your application!
-Testing: Make sure your addition works perfectly.
-Documentation: A clear and detailed README for your new feature would be great.
+5-Factorize the redendent code
 
-## 🎉 Why Participate?
+6-Make a pagination for the list of pokemon
 
-This test is your chance to shine and show that you are the champion we are looking for. It's also an opportunity to learn, have fun and work on something a little different.
+7-Using Typescript is a +
 
-## 📚 Useful Resources
+/!\ note that you have 2 screenshots showing what your app will look like at the end of your work
 
-Beginner's Guide to React (just in case)
-PokeAPI Documentation
-
-## 🤝 Contribution
-
-Fork the Repo: Start by forking the project.
-Clone on your Local: Work locally for more comfort.
-Branches: Create a branch for your feature.
-Pull Request: Once you're ready, send us your PR!
-
-## 📞 Need Help?
-
-If you feel lost in the Pokémon jungle, don't panic! Our team is here to help you. Send us a message and we will be happy to guide you.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Good luck!
 
 ## Available Scripts
 
@@ -113,7 +96,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-## 🌈 Have fun!
+## 🎉 Have fun!
 
 Remember, the important thing is to have fun and learn. We can't wait to see what you come up with!
 
