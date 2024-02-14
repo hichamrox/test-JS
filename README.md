@@ -25,7 +25,7 @@ to dynimize the list of pokemons page and the pokemon details page using api cal
 
 7-Using Typescript is a +
 
-/!\ note that you have 2 screenshots in the src/publi folder named pokemon 1 and pokemon 2 showing what your app will look like at the end of your work
+/!\ note that you have 2 screenshots in the src/public folder named pokemon 1 and pokemon 2 showing what your app will look like at the end of your work
 
 Good luck!
 
