@@ -28,10 +28,6 @@ const HomePage = () => {
     dispatch(setCurrentPage(pageNumber));
   };
 
-  useEffect(() => {
-    console.log(pokemons);
-  }, [pokemons]);
-
   if (loading) {
     return <h1>Loading...</h1>;
   }

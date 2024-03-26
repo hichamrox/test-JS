@@ -20,7 +20,6 @@ const PokemonCard = ({ pokemonDetails }) => {
             setPokemonType(data.types);
             setPokemonImage(data.sprites.other.home.front_default);
         })
-        console.log(pokemon)
     },[])
 
   return (
