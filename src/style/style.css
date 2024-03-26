@@ -1337,3 +1337,54 @@ h2::first-letter {
       
         
     }
+
+    .pokemon-card {
+      width: 200px;
+      height: 300px;
+      perspective: 1000px;
+    }
+    
+    .pokemon-card:hover .card-back {
+      transform: rotateY(180deg);
+    }
+    
+    .card-back,
+    .card-front {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+      transition: transform 0.5s;
+    }
+    
+    .card-back {
+      transform: rotateY(0deg);
+    }
+    
+    .pokemon-card:hover .card-front {
+      transform: rotateY(360deg);
+      background: rgb(0,9,36);
+      background: linear-gradient(90deg, rgba(0,9,36,1) 39%, rgba(211,25,213,1) 100%);
+      backface-visibility: visible; /* Example background color for the back side */
+    }
+    
+    .card-details {
+      display: flex;
+      flex-direction: column;
+      align-items:start;
+      justify-content: center;
+      padding: 10px;
+      color: #ffffff;
+      font-family: 'Helvetica Neue'
+    }
+
+
+    .card-details div {
+      display: flex;
+    }
+
+    
+    .card-front {
+      transform: rotateY(180deg);
+    }
+
